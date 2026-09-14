@@ -7,9 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <nav>
+        <p class="nav-main">Portfolio<i data-lucide="chevron-right"></i></p>
+        <a class="nav-button" href="#hero-main"><i data-lucide="table-of-contents"></i>Overview</a>
+        <a class="nav-button" href="#hero-main"><i data-lucide="phone"></i>Contact</a>
+        <a class="nav-button" href="#hero-main"><i data-lucide="folder"></i>Projects</a>
+    </nav>
     <section class="hero">
         <div id="hero-main">
             <img class="headshot" src="images/headshot.jpg" alt="Headshot">
@@ -22,8 +29,17 @@
     </section>
     <hr>
     <section class="page-section">
-        <h1>About</h1>
-        <p>Lorem Ipsum and all that stuff</p>
+        <h1>About Me</h1>
+        <p>As someone who grew up near computers, I've been interested in tech for a while. Starting with a childhood passion for game development, my interest in building software has grown alongside my skills.</p>
+        <br>
+        <p>Especially today, software has the power to substantially improve people's lives around the world, and it already has in countless ways. I aim to use my ever-growing technical background to create impactful, beneficial pieces of software for the public good.</p>
+        <br>
+        <p>Currently studying at <a href="https://www.berea.edu/" target="_blank">Berea College</a> towards a BA in Computer Science and a minor in Communications whilst actively seeking opportunities in the realm of software engineering.</p>
     </section>
+    <footer>© 2026 Abdou Diop</footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
   </body>
 </html>
