@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abdou Diop - Portfolio</title>
+    <title>Abdou Diop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,12 +11,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav>
-        <p class="nav-main">Portfolio<i data-lucide="chevron-right"></i></p>
-        <a class="nav-button" href="#hero-main"><i data-lucide="table-of-contents"></i>Overview</a>
-        <a class="nav-button" href="#hero-main"><i data-lucide="phone"></i>Contact</a>
-        <a class="nav-button" href="#hero-main"><i data-lucide="folder"></i>Projects</a>
-    </nav>
+    <nav id="component-navbar"></nav>
     <section class="hero">
         <div id="hero-main">
             <img class="headshot" src="images/headshot.jpg" alt="Headshot">
@@ -36,10 +31,8 @@
         <br>
         <p>Currently studying at <a href="https://www.berea.edu/" target="_blank">Berea College</a> towards a BA in Computer Science and a minor in Communications whilst actively seeking opportunities in the realm of software engineering.</p>
     </section>
-    <footer>© 2026 Abdou Diop</footer>
+    <footer id="component-footer"></footer>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-        lucide.createIcons();
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
