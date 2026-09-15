@@ -21,7 +21,6 @@ body {
     scrollbar-color: var(--neutral) rgb(20,20,20);
     scrollbar-width: thin;
 }
-Y
 body::-webkit-scrollbar {
     width: 10px;
 }
@@ -298,8 +297,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    gap: 10px;
     width: 100%;
+    padding-top: 10px;
     margin-bottom: 10px;
+}
+
+.skill-pills .pill {
+    margin: 0;
 }
 
 .pill {
